@@ -11,9 +11,13 @@ capstone==5.0.0rc2
 ```
 for riscv: 
     make calc
-    calc PATH_OF_THE_ELF
+    ./calc PATH_OF_THE_ELF
 
 for x86_64:
     python3 calc_x86.py -t=PATH_OF_THE_ELF
 ```
 
+## calc_x86 result
+![x86 result](/img/result_x86.png)
+## calc_x86 result
+![riscv result](/img/result_riscv.png)
